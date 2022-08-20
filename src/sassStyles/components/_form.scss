@@ -1,0 +1,32 @@
+.form {
+
+    &__input {
+        font-family: inherit;
+        font-weight: 500;
+        background-color: #F3F3F3;
+        border: none;
+        border-radius: .5rem;
+        transition: all .2s;
+
+        &_large {
+            font-size: 1.5rem;
+            width: 100%;
+            padding: 1.2rem;
+        }
+
+        &_small {
+            font-size: 1.7rem;
+            padding: 0.6rem 1rem;
+            width: 100%;
+            margin-right: 5rem;
+        }
+
+        &:focus {
+            outline: 2px solid $color-primary;
+        }
+
+        &::placeholder {
+            color: #B5B5B5;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.TodoList {
+    position: absolute;
+    background-color: $color-white;
+    border-radius: 1.2rem;
+    width: 45rem;
+    padding:  3.5rem 4rem;
+    transition: all .2s;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 0rem 1rem 1rem rgba(black, .25);
+
+    &__header{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+
+}

@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 60%;
+}
+
+@media screen and (max-width: 600px) {
+
+    html {
+        font-size: 45%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    html {
+        font-size: 35%;
+    }
+}
+
+
+body {
+    box-sizing: border-box;
+    font-family: lat;
+    // font-weight: 200;
+    background-color: $color-primary;
+}
