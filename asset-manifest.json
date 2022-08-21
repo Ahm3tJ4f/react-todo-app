@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-todo-app/static/css/main.fc35a89d.css",
+    "main.css": "/react-todo-app/static/css/main.0c7e357f.css",
     "main.js": "/react-todo-app/static/js/main.275c5710.js",
     "static/js/787.2843ca88.chunk.js": "/react-todo-app/static/js/787.2843ca88.chunk.js",
     "static/media/lato-v23-latin-ext_latin-900.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-900.a781b641b2cff6aef883.svg",
@@ -24,12 +24,12 @@
     "static/media/lato-v23-latin-ext_latin-100.eot": "/react-todo-app/static/media/lato-v23-latin-ext_latin-100.7e277e91ee88fcd02338.eot",
     "static/media/lato-v23-latin-ext_latin-100.woff2": "/react-todo-app/static/media/lato-v23-latin-ext_latin-100.248f01e0b7ea2ab923f2.woff2",
     "index.html": "/react-todo-app/index.html",
-    "main.fc35a89d.css.map": "/react-todo-app/static/css/main.fc35a89d.css.map",
+    "main.0c7e357f.css.map": "/react-todo-app/static/css/main.0c7e357f.css.map",
     "main.275c5710.js.map": "/react-todo-app/static/js/main.275c5710.js.map",
     "787.2843ca88.chunk.js.map": "/react-todo-app/static/js/787.2843ca88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc35a89d.css",
+    "static/css/main.0c7e357f.css",
     "static/js/main.275c5710.js"
   ]
 }
