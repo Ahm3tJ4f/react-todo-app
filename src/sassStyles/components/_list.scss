@@ -1,15 +1,9 @@
 .list {
 
-    // padding-block: .5rem;
-    // display: flex;
-    // flex-direction: column;
-
     &__checkbox {
         // margin-right: 4rem;
         display: flex;
         align-items: center;
-
-        // justify-content: space-between;
 
         &::before {
             content: "";
