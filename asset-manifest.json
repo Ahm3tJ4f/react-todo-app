@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/react-todo-app/static/css/main.b7a62708.css",
+    "main.css": "/react-todo-app/static/css/main.fc35a89d.css",
     "main.js": "/react-todo-app/static/js/main.275c5710.js",
     "static/js/787.2843ca88.chunk.js": "/react-todo-app/static/js/787.2843ca88.chunk.js",
-    "static/media/lato-v23-latin-ext_latin-900.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-900.507133c1c938007abafa.svg",
-    "static/media/lato-v23-latin-ext_latin-700.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-700.414efa6d77701ff12fc5.svg",
-    "static/media/lato-v23-latin-ext_latin-regular.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-regular.ec5307044f561bd0e346.svg",
-    "static/media/lato-v23-latin-ext_latin-100.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-100.f0ca99fe15ff4de1de19.svg",
+    "static/media/lato-v23-latin-ext_latin-900.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-900.a781b641b2cff6aef883.svg",
+    "static/media/lato-v23-latin-ext_latin-700.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-700.cc811f1fa3b8c61938ed.svg",
+    "static/media/lato-v23-latin-ext_latin-regular.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-regular.335643de538753a2982a.svg",
+    "static/media/lato-v23-latin-ext_latin-100.svg": "/react-todo-app/static/media/lato-v23-latin-ext_latin-100.7d971246ad205371e9d4.svg",
     "static/media/lato-v23-latin-ext_latin-regular.ttf": "/react-todo-app/static/media/lato-v23-latin-ext_latin-regular.2bf7f1d7ee21f40a0cbc.ttf",
     "static/media/lato-v23-latin-ext_latin-700.ttf": "/react-todo-app/static/media/lato-v23-latin-ext_latin-700.0258c6e29576657fa28f.ttf",
     "static/media/lato-v23-latin-ext_latin-100.ttf": "/react-todo-app/static/media/lato-v23-latin-ext_latin-100.9796f4313bf2dea69385.ttf",
@@ -24,12 +24,12 @@
     "static/media/lato-v23-latin-ext_latin-100.eot": "/react-todo-app/static/media/lato-v23-latin-ext_latin-100.7e277e91ee88fcd02338.eot",
     "static/media/lato-v23-latin-ext_latin-100.woff2": "/react-todo-app/static/media/lato-v23-latin-ext_latin-100.248f01e0b7ea2ab923f2.woff2",
     "index.html": "/react-todo-app/index.html",
-    "main.b7a62708.css.map": "/react-todo-app/static/css/main.b7a62708.css.map",
+    "main.fc35a89d.css.map": "/react-todo-app/static/css/main.fc35a89d.css.map",
     "main.275c5710.js.map": "/react-todo-app/static/js/main.275c5710.js.map",
     "787.2843ca88.chunk.js.map": "/react-todo-app/static/js/787.2843ca88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7a62708.css",
+    "static/css/main.fc35a89d.css",
     "static/js/main.275c5710.js"
   ]
 }
