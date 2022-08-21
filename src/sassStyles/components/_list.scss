@@ -61,7 +61,7 @@
 
         }
 
-        &:hover{
+        &:hover {
             cursor: pointer;
         }
     }
@@ -72,10 +72,21 @@
     }
 }
 
-[type="checkbox"]:checked+.list__checkbox::before {
-    content: "✓";
-    text-align: center;
-    font-size: 1.1rem;
-    color: $color-primary;
-    font-weight: 900;
+[type="checkbox"]:checked {
+    &+.list__checkbox {
+        opacity: .7;
+
+        &::before {
+            content: "✓";
+            text-align: center;
+            font-size: 1.1rem;
+            color: $color-primary;
+            font-weight: 900;
+            text-decoration: none;
+        }
+
+        & .list__content {
+            text-decoration: line-through;
+        }
+    }
 }
