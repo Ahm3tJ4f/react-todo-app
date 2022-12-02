@@ -1,43 +1,32 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from "react";
 
-class NewTodoForm extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			todo: '',
-		};
-		this.handleChange = this.handleChange.bind(this);
-		this.handleSubmit = this.handleSubmit.bind(this);
-	}
+const NewTodoForm = ({ addTodo }) => {
+  const [todo, setTodo] = useState("");
 
-	handleChange(e) {
-		this.setState({
-			[e.target.name]: e.target.value,
-		});
-	}
+  const handleChange = (e) => {
+    setTodo(e.target.value);
+  };
 
-	handleSubmit(e) {
-		e.preventDefault();
-		this.props.addTodo(this.state.todo);
-		this.setState({ todo: '' });
-	}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    addTodo(todo);
+    setTodo("");
+  };
 
-	render() {
-		return (
-			<form className="form NewTodoForm" onSubmit={this.handleSubmit}>
-				<input
-					className="form__input form__input_large"
-					name="todo"
-					type="text"
-					value={this.state.todo}
-					onChange={this.handleChange}
-					required
-					autoComplete="off"
-					placeholder="Add a new task inside ‘All’ category"
-				/>
-			</form>
-		);
-	}
-}
+  return (
+    <form className="form NewTodoForm" onSubmit={handleSubmit}>
+      <input
+        className="form__input form__input_large"
+        name="todo"
+        type="text"
+        value={todo}
+        onChange={handleChange}
+        required
+        autoComplete="off"
+        placeholder="Add a new task inside ‘All’ category"
+      />
+    </form>
+  );
+};
 
 export default NewTodoForm;
