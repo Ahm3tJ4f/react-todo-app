@@ -2,18 +2,13 @@ import React, { Component } from 'react';
 import NewTodoForm from '../NewTodoForm/NewTodoForm';
 import Todo from '../Todo/Todo';
 import { v4 as uuidv4 } from 'uuid';
-class TodoList extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			toDoList: [],
-		};
-		this.addTodo = this.addTodo.bind(this);
-		this.removeTodo = this.removeTodo.bind(this);
-		this.saveChange = this.saveChange.bind(this);
-	}
+import { useState } from 'react';
 
-	addTodo(todoContent) {
+const  TodoList = () => {
+	
+
+	const [toDoList,setList] = useState([])
+function	addTodo(todoContent) {
 		this.setState((state) => {
 			const id = uuidv4();
 			return {
@@ -22,7 +17,7 @@ class TodoList extends Component {
 		});
 	}
 
-	removeTodo(id) {
+	function removeTodo(id)  {
 		this.setState((state) => {
 			return {
 				toDoList: state.toDoList.filter((todo) => {
@@ -45,7 +40,7 @@ class TodoList extends Component {
 		});
 	}
 
-	render() {
+
 		const tasks = this.state.toDoList.map((todo) => {
 			return (
 				<Todo
@@ -70,7 +65,6 @@ class TodoList extends Component {
 				<ul className="list">{tasks}</ul>
 			</main>
 		);
-	}
 }
 
 export default TodoList;
