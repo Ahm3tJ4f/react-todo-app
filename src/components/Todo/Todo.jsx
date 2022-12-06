@@ -1,10 +1,10 @@
-const Todo = ({ id, handleEdit, handleRemove }) => {
+const Todo = ({ id, handleEdit, handleRemove, content }) => {
   return (
     <label className="list__todo">
       <input id={id} type="checkbox" className="list__input_hidden" />
 
       <label for={id} className="list__checkbox">
-        <span className="list__content">{this.props.content}</span>
+        <span className="list__content">{content}</span>
       </label>
 
       <div className="list__input-box">

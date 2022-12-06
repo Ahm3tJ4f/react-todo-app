@@ -7,16 +7,12 @@ import { useState } from "react";
 const TodoList = () => {
   const [toDoList, setList] = useState([]);
   function addTodo(todoContent) {
-    this.setState((state) => {
-      const id = uuidv4();
-      return {
-        toDoList: [...state.toDoList, { content: todoContent, id: id }],
-      };
-    });
+    const id = uuidv4();
+    setList([...toDoList, { content: todoContent, id: id }]);
   }
 
   function removeTodo(id) {
-    this.setState((state) => {
+    setList((state) => {
       return {
         toDoList: state.toDoList.filter((todo) => {
           return todo.id !== id;
@@ -38,7 +34,7 @@ const TodoList = () => {
     });
   };
 
-  const tasks = this.state.toDoList.map((todo) => {
+  const tasks = toDoList.map((todo) => {
     return (
       <Todo
         id={todo.id}
@@ -56,7 +52,7 @@ const TodoList = () => {
         <h1>All Tasks</h1>
       </header>
 
-      <NewTodoForm addTodo={this.addTodo} />
+      <NewTodoForm addTodo={addTodo} />
 
       <ul className="list">{tasks}</ul>
     </main>

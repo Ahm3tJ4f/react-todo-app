@@ -26,7 +26,12 @@ const TodoBar = ({ content, removeTodo, id, saveChange }) => {
   return (
     <li className="Todo">
       {!isEdit ? (
-        <Todo id={id} handleEdit={handleEdit} handleRemove={handleRemove} />
+        <Todo
+          id={id}
+          handleEdit={handleEdit}
+          handleRemove={handleRemove}
+          content={content}
+        />
       ) : (
         <label className="list__edit">
           <input
