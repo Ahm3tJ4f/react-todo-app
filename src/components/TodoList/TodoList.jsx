@@ -47,8 +47,8 @@ const TodoList = () => {
   });
 
   return (
-    <main className="TodoList">
-      <header className="TodoList__header">
+    <main className=" ">
+      <header className="text-4xl">
         <h1>All Tasks</h1>
       </header>
 
